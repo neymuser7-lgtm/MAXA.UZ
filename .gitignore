@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Output fayllar
+output/*
+!output/.gitkeep
+
+# Wordlistlar (katta fayllar)
+wordlists/*.txt
+!wordlists/.gitkeep
+
+# Log fayllar
+*.log
+*.cap
+*.pcap
+*.pcapng
+
+# Maxfiy malumotlar
+config/secret.py
+*.key
+*.pem
+
+# Tizim fayllari
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Venv
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
